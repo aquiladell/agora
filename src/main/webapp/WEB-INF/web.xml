@@ -10,8 +10,78 @@
   	<description></description>
   	<servlet-class>LoginCheck</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>CriarConexao</servlet-name>
+  	<display-name>CriarConexao</display-name>
+  	<description></description>
+  	<servlet-class>CriarConexao</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Cadastar</servlet-name>
+  	<display-name>Cadastar</display-name>
+  	<description></description>
+  	<servlet-class>Cadastar</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Balanco</servlet-name>
+  	<display-name>Balanco</display-name>
+  	<description></description>
+  	<servlet-class>Balanco</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Deposit</servlet-name>
+  	<display-name>Deposit</display-name>
+  	<description></description>
+  	<servlet-class>Deposit</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Historical</servlet-name>
+  	<display-name>Historical</display-name>
+  	<description></description>
+  	<servlet-class>Historical</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Sacar</servlet-name>
+  	<display-name>Sacar</display-name>
+  	<description></description>
+  	<servlet-class>Sacar</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOut</servlet-name>
+  	<display-name>LogOut</display-name>
+  	<description></description>
+  	<servlet-class>LogOut</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>LoginCheck</servlet-name>
   	<url-pattern>/LoginCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CriarConexao</servlet-name>
+  	<url-pattern>/CriarConexao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Cadastar</servlet-name>
+  	<url-pattern>/Cadastar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Balanco</servlet-name>
+  	<url-pattern>/Balanco</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Deposit</servlet-name>
+  	<url-pattern>/Deposit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Historical</servlet-name>
+  	<url-pattern>/Historical</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Sacar</servlet-name>
+  	<url-pattern>/Sacar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOut</servlet-name>
+  	<url-pattern>/LogOut</url-pattern>
   </servlet-mapping>
 </web-app>

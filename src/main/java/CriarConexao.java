@@ -21,13 +21,7 @@ public class CriarConexao extends HttpServlet {
 		try{
 	   Class.forName("com.mysql.jdbc.Driver");
 	   System.out.print("---CONNECTOU----");
-	   
-	   //   return DriverManager.getConnection("jdbc:mysql://mysql:3306/eugenio","userHNF","itKX6Qmw4omHPUY5");
-	   //   return DriverManager.getConnection("jdbc:mysql://mysql:3306/eugenio","rafael12","itKX6Qmw4omHPUY5");
 	      return DriverManager.getConnection("jdbc:mysql://mysql:3306/eugenio","rafa","rafael12");
-	   //   return DriverManager.getConnection("jdbc:mysql://mysql:3306/eugenio","rafael12","rafael12");
-	  
-	 //  return DriverManager.getConnection("jdbc:mysql://localhost:3306/eugenio","root","rafael12");
 		
 		} catch (SQLException e){
 			System.out.print("===CATCH A CONNECTACAO===="+ e);
